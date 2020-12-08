@@ -40,7 +40,7 @@ function tellMe(joke) {
 // Get Jokes From Joke API
 async function getJokes() {
     let joke = '';
-    const apiUrl = 'https://sv443.net/jokeapi/v2/joke/Dark?type=twopart';
+    const apiUrl = 'https://sv443.net/jokeapi/v2/joke/Miscellaneous,Pun?type=twopart';
     try {
         const response = await fetch(apiUrl);
         const data = await response.json();
